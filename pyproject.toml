@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dashboard-com-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Lucas Roll <felipelroll@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+streamlit = "^1.37.1"
+yfinance = "^0.2.41"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
