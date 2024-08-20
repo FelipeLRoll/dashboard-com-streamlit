@@ -11,7 +11,7 @@
 * **pandas = "^2.2.2"**
 
 # How to use
-* Just acess https://sharesdashboard.streamlit.app/ and try it!! OR;
+* Just acess [Here](https://sharesdashboard.streamlit.app) and try it!! OR;
 * Create a virtual enviroment using poetry;
 * Install the libraries by running ```poetry install```;
 * Run it with ```streamlit run app.py```
