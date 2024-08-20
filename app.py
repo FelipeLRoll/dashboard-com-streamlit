@@ -2,7 +2,7 @@ import yfinance as yf
 import streamlit as st  
 import pandas as pd
 
-nova_acao = st.text_input("Digite o codigo de uma acao: ", key="nova_acao")
+nova_acao = st.text_input("Digite o código de uma ação: ", key="nova_acao")
 
 #funcao de carregamento dos dados
 def carregar_dados(empresas):
@@ -35,8 +35,8 @@ dados = dados.loc[intervalo_data[0]:intervalo_data[1]]
 
 #texto no streamlit
 st.write(f"""
-### App precos de Acoes
-O Grafico abaixo representa a evolucao o preco das acoes {lista_acoes} com inicio em {intervalo_data[0].strftime("%d/%m/%Y")} 
+### App de preços de Ações
+O Gráfico abaixo representa a evolução do preço das ações {lista_acoes} com início em {intervalo_data[0].strftime("%d/%m/%Y")} 
 e final em {intervalo_data[1].strftime("%d/%m/%Y")}.
 """)
         
